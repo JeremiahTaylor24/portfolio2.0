@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JT Portfolio</title>
+    <link rel="stylesheet" href="./assets/style.css">
+
+</head>
+
+<!--I want to create my first draft of a portfolio
+I need a header that has my name in the bottom left courner
+I need to add an image to the picture for my profile in a circular box
+I need a rectangular box to the left of my picture
+I need another longer rectangular box just beneather running the length of the page
+I need to symetrical squares/rectangular boxes for remaining information at the bottom of the page
+I need a footer with contact information
+I need to create clickable links that will take me to a certain point on the page.-->
+
+<!--
+    GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport
+-->
+
+
+<body>
+    
+    <header class="sub-title">
+        <h1>Portfolio One</h1> 
+        <p>Welcome to my portfolio!</p>
+
+    </header>
+
+    <a href="#banner1">Purpose</a>
+    <a href="#education-history">Education History</a>
+    <a href="#my-projects">My Projects</a>
+
+    <!--Left of trying to create links for the different areas on the page. Resume working here-->
+
+
+    <main>
+
+        <article>
+            <img src="/Users/jaytee/bootcamp/portfolio1/assets/IMG_6984.jpg" alt="image of Jeremiah">
+        </article>
+
+        <section class="card">
+     <div>
+        <h2 id="bio"><strong>Jeremiah Taylor</strong> </h2>
+    </div>
+            <h3>Bio</h3>
+            <h4>Recent Graduate, Historian, Driven, Ambitious</h4>
+            <p>My name is Jeremiah Taylor and I am new to software development. I am striving to be the best that I can be while learning all that I can. I hope to make connections that will benifit myself as well as others!</p> 
+            <!--This is where I will put the information for my bio-->
+        </section> 
+
+        <section class="banner" id="banner1">
+            <h3>Purpose</h3>
+            <p>I started my coding journey a few months ago after talking with a friend. He was about 2 years into his journey and told me about the rewarding career path he was on. Right away I was interested. My hope is that in 5 - 10 years I can help others progress and follow their dreams of becoming software developers. Someday I plan to have my own freelancing business and help those who cannot afford web development.</p> 
+
+        </section>
+
+        <section class="card2" id="education-history">
+            <h3>Education and History</h3>
+        </section>
+
+        <section class="bottom-card1">
+            <p>I graduated from Abilene Christian University in 2022 with a degree in history. Soon after, I worked with American Cruise Lines. There I really developed my logical problem solving skills giving me the confidence to begin my coding journey.</p>
+        </section>
+
+        
+
+        <section class="card3" id="my-projects">
+            <h3>My Projects</h3>
+        </section>
+
+    
+        <section class="bottom-card2">
+         <p>
+            <Ul>
+                <li> 1. Pre-Work Study Guide</li>
+                <li> 2. Horiseon Code Refractor</li>
+                <li> 3. MORE TO COME!! </li>
+            </Ul>
+            Click on the images below to go to the deployed website!
+            </p>
+        </section>
+        <h2> Pre-Work Study Guide</h2>
+        <article>
+            <a href="https://jeremiahtaylor24.github.io/prework-study-guide/">
+            <img  class="img2" src="./Screenshot 2023-06-28 at 12.17.05 AM.jpeg" alt="Pre-work study guide/Jeremiah's First application">
+            </a>
+        </article>
+
+        <article>
+            <h2> Horiseon Refractor</h2>
+            <a href="https://jeremiahtaylor24.github.io/horiseon-refactor/">
+            <img class="img3" src="./Screenshot 2023-06-28 at 5.11.37 PM.jpeg"></a>
+        </article>
+
+        
+
+        </section>
+    </main>
+
+
+
+
+    
+</body>
+</html>
+
